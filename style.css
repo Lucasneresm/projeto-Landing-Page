@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    font-family: 'inter';
+}
+
+#logo{
+    margin: 40px;
+    margin-top: 55px;
+}
+
+#menu-superior{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#texto-superior{
+    margin-left: 150px;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-image: url(imagenss/fundo-menusuperior.svg);
+    color: white;
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icones{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;   
+}
+
+#video{
+    margin: 50px 60px 50px 100px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    background-color: #247ba0;
+    padding: 100px;
+}
+
+#titulo-carrossel{
+   color: white;
+   text-align: center;
+   font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 10px;
+}
+
+#seta-esquerda{
+    display: none;
+}
+#bruna{
+    display:none;
+}
+
+.seta{
+    margin-top: 200%;
+    margin: auto;
+    cursor: pointer;
+}
+.seta:hover{
+    transform: translatey(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    background-color: white;
+    text-align: center;
+
+}
+
+#titulo-formulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    border-radius: 8px;
+    color: #EAECE5;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+button:hover{
+    transform: translatey(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #05103081;
+}
